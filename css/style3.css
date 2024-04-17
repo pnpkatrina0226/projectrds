@@ -1,0 +1,111 @@
+/* Styling untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling untuk header */
+.main-title {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+
+/* Styling untuk tombol logout */
+.logout-link {
+    float: right;
+    margin: 10px;
+}
+
+/* Styling untuk tombol tambah data */
+.add-link {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.add-link:hover {
+    background-color: #45a049;
+}
+
+/* Styling untuk form pencarian */
+.search-form {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.search-input {
+    padding: 5px;
+}
+
+.search-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #45a049;
+}
+
+.loader {
+    width: 30px;
+    position: absolute;
+    top: 138px;
+    left: 250px;
+    z-index: -1;
+    display: none;
+}
+
+/* Styling untuk tabel data */
+#container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table-header {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Styling untuk tautan Ubah dan Hapus dalam tabel */
+.edit-link, .delete-link {
+    text-decoration: none;
+    color: #4CAF50;
+    margin-right: 5px;
+}
+
+.edit-link:hover, .delete-link:hover {
+    text-decoration: underline;
+}
